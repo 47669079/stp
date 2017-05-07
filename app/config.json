@@ -1,0 +1,15 @@
+{
+	"app":{
+		"title":"XFramework",
+		"version":"1.0"
+	},
+	"dbconf":{
+		"driver":"mysql",
+                "dbhost":"localhost",
+                "dbuser":"'oiglesias_root'",
+                "dbpass":"rootroot",
+		"dbname":"oiglesias_storypub"
+		
+	}
+
+}

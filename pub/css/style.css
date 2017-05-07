@@ -1,0 +1,210 @@
+@charset"UTF-8";
+
+html{
+  min-height: 100%;
+  position: relative;
+}
+
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+
+body{
+    background-color: #cbcbcb;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#container{
+    width: 90%;
+    margin:auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+nav{
+    width: 100vw;
+    height: 30px;
+}
+
+.navbar-light{
+    background-color: #DA928C !important;
+}
+
+nav a{
+    color: white !important;
+}
+
+nav .storypub{
+    margin-top: -10px;
+    height: 40px;
+}
+
+h1, h2{
+    text-align: center;
+}
+
+footer p{
+    text-align: center;
+}
+
+footer{
+    margin-top: 20px;
+}
+
+#mens{
+    height: 15px;
+    width: 254.667px;
+}
+
+.dropdown-menu{
+  background-color: #C46459 !important;
+}
+
+h2 {
+  margin-bottom: 0;
+}
+
+.cont_hist{
+  width: 20vw;
+  cursor: pointer;
+}
+
+.cont_hist:hover{
+  background-color: rgb(241, 237, 237);
+}
+
+.hist_container{
+  width: 75vw;
+  background-color: #B3B3B3;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 10px 0px;
+    color: #333 !important;
+}
+
+.hist_container a{
+  display: flex;
+  text-decoration: none;
+  color: #333 !important;
+}
+
+.title, #mceu_11{
+  width: 80vw;
+}
+
+.editor_title{
+  text-align: left;
+  width: 80vw;
+  margin-top: 10px;
+}
+
+#editor_save{
+  margin-top: 10px;
+}
+
+/* DASHBOARD */
+
+#hist_top{
+  display: flex;
+  align-content: space-between;
+  flex-direction: column;
+}
+
+.h_value{
+  margin-top: -22px;
+  align-self: last baseline;
+}
+
+.h_username{
+  font-weight: 400;
+  color: #C46459 !important;
+}
+
+.h_date{
+  font-weight: 300;
+
+}
+
+.h_title{
+  font-weight: 600;
+}
+
+.b_values{
+  width: 50px;
+}
+
+/* STORY */
+
+.cont_story{
+  width: 75vw;
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 10px 20px;
+  color: #333 !important;
+}
+
+.h_story_title{
+  padding-top: 20px;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+#h_story{
+  padding-top: 10px;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.h_edit{
+  align-self: flex-end;
+  margin-top: -60px;
+  cursor: pointer;
+}
+
+.tag_button{
+  width: 100px;
+  margin-right: 10px;
+}
+
+#cont_tags{
+  margin-top: 30px;
+  display: flex;
+}
+
+.b_values{
+  align-self: last baseline;
+}
+
+/* USER */
+
+.cont_user{
+    width: 40vw;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.edit-form{
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin-left: -20px;
+}
+
+.edit-form label{
+  margin-top: 10px;
+}
+
+.edit-btn{
+  align-self: center;
+  margin: 20px 0px 10px 0px;
+}
